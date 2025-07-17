@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Archit Bhullar - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="info">
+    <div class="overlay">
+      <h1>Hey, I’m Archit</h1>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <img src="images/profile.jpg" alt="Profile Photo" class="profile" />
+    <p>I’m Archit Bhullar, an aspiring web developer proficient in building REST APIs, ORM, and secure backend solutions.</p>
+  </section>
+
+  <!-- Work / Projects Section -->
+  <section id="work" class="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <img src="images/website.jpg" alt="Website Project" />
+      <h3>Portfolio Website</h3>
+      <p>I’ve developed a smart car parking system using three microcontrollers, integrated with MQTT and IFTTT, and I’m currently working on offering it as a freelance product <a href="https://github.com/your-github/portfolio" target="_blank">GitHub</a></p>
+    </div>
+    <div class="project">
+      <img src="images/app.webp" alt="App Project" />
+      <h3>Task Tracker App</h3>
+      <p>I made full backend REST API for my current wokrplace to update and save differnt data regarding the products and their invoices while using authentication with Argon2 for the user safety <a href="https://github.com/your-github/task-tracker" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="contact" class="pictures">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/trip.jpg" alt="Trip" />
+      <img src="images/event.jpg" alt="Event" />
+      <img src="images/hobby.jpg" alt="Hobby" />
+      <img src="images/nature.jpg" alt="Nature" />
+    </div>
+  </section>
+
+</body>
+</html>
