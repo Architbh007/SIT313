@@ -1,4 +1,3 @@
-// src/lib/bcrypt.js
 import bcrypt from "bcryptjs";
 
 // hash with salt rounds (10 is common)
