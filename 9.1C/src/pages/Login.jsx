@@ -1,4 +1,3 @@
-// src/pages/Login.jsx
 import React, { useState } from "react";
 import { db } from "../firebase";
 import { collection, query, where, getDocs } from "firebase/firestore";
@@ -48,7 +47,7 @@ export default function Login() {
   const errBox = { background:"#ffe8e8", border:"1px solid #ffc4c4", color:"#8b0000", padding:"8px 10px", borderRadius:6, marginBottom:10 };
   const linkBtn = { position:"absolute", right:12, top:12, fontSize:12, color:"#2f6bff", background:"#eef4ff", border:"1px solid #cfe0ff", borderRadius:6, padding:"4px 8px", textDecoration:"none" };
 
-  // === NEW: if already signed in, show Sign-out right on the Login page ===
+  //if already signed in, show Sign-out right on the Login page ===
   if (session) {
     return (
       <div style={card}>
